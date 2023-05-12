@@ -1,0 +1,175 @@
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: royalblue;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 29.55px;
+  color: white;
+  text-align: center;
+  padding: 14px 75px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: royalblue;
+  text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+article{
+
+	text-align: center;
+}
+hl{
+	text-decoration: underline;
+	float: center;
+}
+.box{
+	background-color: royalblue;
+	width: 66%;
+	height: 320px;
+}
+.logo {
+  float: right;
+  width: auto;
+  height: 80px;
+}
+
+h2{
+	text-decoration: underline;
+	text-align: center;
+}
+form {
+  display: inline-block;
+}
+
+div {
+  text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  background-color: royalblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.columnt {
+  float: right;
+  width: 24%;
+  padding: 5px;
+}
+.footers{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: royalblue;
+  text-align: center;
+}
+.video{
+	float: center;
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.staffpic {
+  float: right;
+  width: 25%;
+  height: 25%;
+  padding: 5px;
+}
+.footerss{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: royalblue;
+  text-align: center;
+}
+#aboutpaul{
+	text-align: center;
+}
+table {
+	text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
